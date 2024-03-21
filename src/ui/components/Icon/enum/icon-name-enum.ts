@@ -1,0 +1,3 @@
+enum IconName{
+    PLUS = 'Plus'
+}
