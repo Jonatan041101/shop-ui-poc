@@ -1,3 +1,0 @@
-enum IconName{
-    PLUS = 'Plus'
-}
