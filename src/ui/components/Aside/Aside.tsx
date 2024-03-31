@@ -6,14 +6,14 @@ import Cart from "./Cart";
 
 export default function Aside() {
   return (
-    <aside className="flex flex-col justify-between items-center w-full max-w-16 h-[100dvh] bg-red-600 py-3">
+    <aside className="flex flex-col justify-between items-center w-full max-w-16 h-[100dvh] bg-white py-3">
       <div className="">
         <Image
           src={assetsStatics.Logo}
           alt="Logo"
           aria-label="Logo de la pagina"
-          width={30}
-          height={30}
+          width={42}
+          height={42}
         />
       </div>
       <Navbar links={links} />
