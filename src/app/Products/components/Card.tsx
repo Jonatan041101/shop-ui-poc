@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { IProduct } from "../interfaces/product.interface";
 import Icon from "@/ui/Icon/Icon";
 import { IconName } from "@/ui/Icon/enum/icon-name-enum";
+import { IProduct } from "@/api/product/interfaces/product-interface";
 
 interface IProductCardProps {
   product: IProduct;
