@@ -1,5 +1,5 @@
-export interface ISvgProps{
-    width:number
-    height:number
-    fill:`#${string}`
+export interface ISvgProps {
+  width: number;
+  height: number;
+  fill: `#${string}` | "currentColor";
 }
