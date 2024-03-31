@@ -17,6 +17,7 @@ const config: Config = {
         "white-default": "#FAFAFE",
         "gray-soft": "#C1C1C4",
         primary: "#F9A109",
+        cream: "#FFF0DE",
       },
     },
   },
