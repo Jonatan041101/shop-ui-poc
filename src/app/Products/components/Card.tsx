@@ -9,8 +9,8 @@ interface IProductCardProps {
 
 export default function ProductCard({ product }: IProductCardProps) {
   return (
-    <article className="min-w-16 max-w-24 bg-white rounded-2xl border-2 border-gray-soft border-solid flex justify-between items-center gap-2 py-2 px-3 box-content">
-      <p className="text-black">{product.name}</p>
+    <article className="bg-white rounded-2xl border-2 border-gray-soft border-solid flex justify-between items-center gap-2 py-2 px-3 box-content max-w-32">
+      <p className="text-black font-semibold">{product.name}</p>
       <Icon
         icon={IconName.PLUS}
         svg={{ fill: "#C1C1C4", height: 14, width: 14 }}
