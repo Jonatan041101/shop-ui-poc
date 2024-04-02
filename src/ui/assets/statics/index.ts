@@ -5,6 +5,7 @@ import Graph from "./graph.svg";
 import History from "./history.svg";
 import Products from "./products.svg";
 import ProductVoid from "./product-void.svg";
+import Search from "./search.svg";
 import { StaticImageData } from "next/image";
 
 enum AssetsStatics {
@@ -15,6 +16,7 @@ enum AssetsStatics {
   History = "History",
   Products = "Products",
   ProductVoid = "ProductVoid",
+  Search = "Search",
 }
 
 export const assetsStatics: Record<AssetsStatics, StaticImageData> = {
@@ -25,4 +27,5 @@ export const assetsStatics: Record<AssetsStatics, StaticImageData> = {
   History,
   Products,
   ProductVoid,
+  Search,
 };
